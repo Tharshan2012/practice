@@ -6,8 +6,43 @@ header{
 }
 nav{
     background-color: aqua;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    button {
+
+        /*first lesson*/
+        
+        background-color: red;
+        
+        color: white;
+        
+        /*second-lesson*/
+        
+        font-size: 20px;
+        
+        font-weight: bold;
+        
+        /*third lesson*/
+        
+        padding: 5px;
+        
+        border-radius: 5px;
+        
+        border: none;
+        
+        /*fourth lesson*/
+        
+        position: fixed;
+        
+        right: 50px;
+        
+        bottom: 40px;
+        
+        }
 }
 #intro{
+    text-align: center;
     background-color: aquamarine;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
