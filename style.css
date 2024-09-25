@@ -3,6 +3,8 @@ body{
 }
 header{
     background-color: rgb(74, 6, 143);
+    display: flex;
+    justify-content: space-between;
 }
 nav{
     background-color: aqua;
