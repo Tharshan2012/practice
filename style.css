@@ -228,3 +228,37 @@ nav{
     text-decoration: underline;
     
     }
+
+    header{
+        grid-area:header;
+    }
+
+    nav{
+        grid-area:nav;
+    }
+
+    #intro{
+        grid-area: intro;
+    }
+
+    #mainsection{
+        grid-area: mainsection;
+    }
+
+    #bestsellers{
+        grid-area: bestsellers;
+    }
+
+    footer{
+        grid-area: footer;
+    }
+
+    .grid-container{
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+        grid-template-areas: "header header header header intro "
+        "nav nav nav nav intro"
+        "mainsection  mainsection  mainsection  mainsection bestsellers"
+        "footer footer footer footer"
+        ;
+    }
