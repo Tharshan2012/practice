@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h2{
+            text-align:center;
+
+        }
+        .rectangle{
+            border: 1px solid rgb(234, 234, 23);
+            width: 300px;
+            height: 300px;
+            margin: auto;
+            background-color:rgb(234, 234, 23);
+        }
+        button{
+            padding:20px;
+            width:200px;
+            margin: auto;
+            background-color:rgb(234, 234, 23);
+        }
+    </style>
+</head>
+<body>
+    <h2>Make change in the triangle</h2>
+    <div class="rectangle"></div>
+    <div class="button">
+        <button  onclick="changeToCircle()"> Make cricle</button>
+        <button onclick="hide()">Hide</button>      
+         <button onclick="show()">Show</button>
+></button>
+        <button onclick="show" Show></button>
+    </div>
+    <script>
+        let div = document.querySelector(".rectangle")
+
+function changeToCircle(){
+
+div.style.borderRadius = "50%"
+
+}
+
+function hide(){
+
+div.style.display = 'none';
+
+}
+
+function show(){
+
+div.style.display = 'block';
+
+}
+    </script>
+</body>
+</html>
